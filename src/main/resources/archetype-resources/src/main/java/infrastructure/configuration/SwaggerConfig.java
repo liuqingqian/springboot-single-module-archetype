@@ -24,7 +24,7 @@ import static springfox.documentation.spi.DocumentationType.SWAGGER_2;
 @EnableSwagger2
 public class SwaggerConfig {
 
-	public static final String SWAGGER_SCAN_PACKAGE = "${package}.application.api";
+	public static final String SWAGGER_SCAN_PACKAGE = "${package}.application";
 	public static final String APP_PACKAGE = ".app";
 	public static final String WEB_PACKAGE = ".web";
 
