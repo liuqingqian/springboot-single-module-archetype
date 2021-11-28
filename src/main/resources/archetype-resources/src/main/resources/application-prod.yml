@@ -49,7 +49,7 @@ spring:
         max-idle: 50
 
 log:
-  path: /home/beicai/logs
+  path: /home/application/logs
 
 logging:
   config: classpath:logback-spring-online.xml

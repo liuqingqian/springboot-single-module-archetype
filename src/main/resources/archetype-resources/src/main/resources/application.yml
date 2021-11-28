@@ -30,7 +30,7 @@ logging:
   config: classpath:logback-spring-offline.xml
 
 log:
-  path: /home/kaochong/logs/${spring.application.name}
+  path: /home/application/logs/${spring.application.name}
 
 management:
   endpoint:

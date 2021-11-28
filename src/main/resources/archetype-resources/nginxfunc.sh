@@ -5,7 +5,7 @@
 ##########################################################################
 
 #variables
-NGINX_PATH="/home/kaochong/app/nginx"
+NGINX_PATH="/home/application/app/nginx"
 STATUS_FILE="${NGINX_PATH}/html/status.do"
 NGXPID_FILE="/run/nginx.pid"
 NGXBIN_STOP="${NGINX_PATH}/sbin/nginx -s stop"
