@@ -1,7 +1,7 @@
 -Xss256k -Xms2g -Xmx2g
 -XX:+HeapDumpOnOutOfMemoryError
--XX:HeapDumpPath=/home/kaochong/logs/jvmLog/
--XX:ErrorFile=/home/kaochong/logs/jvmLog/jvm_err.log
+-XX:HeapDumpPath=/home/application/logs/jvmLog/
+-XX:ErrorFile=/home/application/logs/jvmLog/jvm_err.log
 -XX:+UseG1GC
 -XX:+UseGCLogFileRotation
 -XX:NumberOfGCLogFiles=5
@@ -12,4 +12,4 @@
 -XX:+PrintGCDateStamps
 -XX:+PrintGCTimeStamps
 -XX:+PrintGCApplicationStoppedTime
--Xloggc:/home/kaochong/logs/jvmLog/gc.log
+-Xloggc:/home/application/logs/jvmLog/gc.log

@@ -16,9 +16,7 @@ import org.springframework.http.converter.HttpMessageConverter;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by shenjingwen on 2018/12/7.
- */
+
 @ExcludeComponent
 @Configuration
 public class FeignConverterConfiguration {
