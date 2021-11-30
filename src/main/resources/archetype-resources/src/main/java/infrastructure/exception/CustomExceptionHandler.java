@@ -1,9 +1,5 @@
 package ${package}.infrastructure.exception;
 
-import com.kaochong.teaching.common.exception.DBException;
-import com.kaochong.teaching.common.exception.RpcException;
-import com.kaochong.teaching.common.restful.ErrorCode;
-import com.kaochong.teaching.common.restful.Response;
 import feign.FeignException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

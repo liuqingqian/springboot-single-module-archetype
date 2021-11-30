@@ -1,6 +1,6 @@
 package ${package}.infrastructure.configuration;
 
-import com.kaochong.teaching.abc.infrastructure.interceptor.AuthorizeInterceptor;
+import ${package}.infrastructure.interceptor.AuthorizeInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;

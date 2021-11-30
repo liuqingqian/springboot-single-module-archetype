@@ -1,9 +1,6 @@
 package ${package}.infrastructure.interceptor;
 
 import com.alibaba.fastjson.JSONObject;
-import com.kaochong.teaching.common.UserHolder;
-import com.kaochong.teaching.common.constants.CommonConstants;
-import com.kaochong.teaching.common.dto.UserDTO;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;

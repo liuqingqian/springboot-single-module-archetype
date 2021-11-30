@@ -1,7 +1,6 @@
 package ${package}.infrastructure.configuration;
 
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
-import com.kaochong.teaching.common.annotation.ExcludeComponent;
 import feign.codec.Decoder;
 import feign.codec.Encoder;
 import org.springframework.beans.factory.ObjectFactory;

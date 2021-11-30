@@ -23,7 +23,7 @@
         <swagger2.version>2.9.2</swagger2.version>
         <swagger-ui.version>1.9.6</swagger-ui.version>
         <log-encoder.version>6.3</log-encoder.version>
-        <common.version>1.0.15</common.version>
+        <common.version>1.0-SNAPSHOT</common.version>
         <feign-okhttp.version>10.0.1</feign-okhttp.version>
 
         <teaching-starter-rocketmq.version>2.1-SNAPSHOT</teaching-starter-rocketmq.version>
@@ -45,7 +45,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.kaochong.teaching.common</groupId>
+            <groupId>${groupId}.common</groupId>
             <artifactId>common</artifactId>
             <version>${common.version}</version>
         </dependency>
@@ -202,12 +202,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>snapshots</id>
+            <id>rdc-snapshots</id>
             <name>Nexus Snapshot Repository</name>
             <url>http://packages.aliyun.com/maven/repository/2040587-snapshot-5iDsAk/</url>
         </snapshotRepository>
         <repository>
-            <id>releases</id>
+            <id>rdc-releases</id>
             <name>User Project Release</name>
             <url>http://packages.aliyun.com/maven/repository/2040587-release-ToxyGz/</url>
         </repository>

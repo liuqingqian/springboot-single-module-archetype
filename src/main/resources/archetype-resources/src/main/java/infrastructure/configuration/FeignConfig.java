@@ -1,6 +1,5 @@
 package ${package}.infrastructure.configuration;
-import com.kaochong.teaching.common.exception.RpcException;
-import com.kaochong.teaching.common.trace.TraceIdUtil;
+
 import feign.Logger;
 import feign.Request;
 import feign.RequestInterceptor;

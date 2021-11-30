@@ -1,7 +1,6 @@
 package ${package}.infrastructure.configuration;
 
 import com.google.common.collect.Lists;
-import com.kaochong.teaching.common.constants.CommonConstants;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
