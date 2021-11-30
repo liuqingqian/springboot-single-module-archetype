@@ -47,6 +47,8 @@ spring:
         max-active: 100
         min-idle: 20
         max-idle: 50
-
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 log:
   path: ./logs

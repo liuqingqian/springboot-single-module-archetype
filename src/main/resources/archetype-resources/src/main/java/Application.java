@@ -1,5 +1,6 @@
 package ${package};
 
+import org.mybatis.spring.annotation.MapperScan;
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,7 +15,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @ServletComponentScan
 @EnableScheduling
 @EnableFeignClients(basePackageClasses = Application.class, basePackages = {"${package}"})
-@ComponentScan(excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {ExcludeComponent.class})})
+@ComponentScan(basePackages = {"${package}"}, excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {ExcludeComponent.class})})
+@MapperScan({"${package}.repository"})
 public class Application {
 
 	public static void main(String[] args) {
